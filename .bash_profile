@@ -25,10 +25,12 @@ alias cd2='cd ../../'
 alias cd3='cd ../../../'
 
 #open in sublime
-alias edit='sublime'
+alias edit='code'
 
 #————---------------------------------
 #         Tab Autocomplete
 #-------------------------------------#
 set completion-ignore-case on
 set show-all-if-ambiguous on
+
+[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
